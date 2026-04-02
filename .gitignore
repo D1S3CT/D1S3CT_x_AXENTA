@@ -1,14 +1,18 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
+.venv/
+env/
 .env
 
-# Django
-db.sqlite3
-media/
-static/
-
 # Docker
-.docker_data/
+.docker/
+
+# OS
+.DS_Store
